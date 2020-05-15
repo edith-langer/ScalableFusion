@@ -45,7 +45,7 @@ find_package(Sophus REQUIRED)
 include_directories(${CUDA_INCLUDE_DIRS})
 include_directories(${EIGEN3_INCLUDE_DIRS})
 include_directories(${Pangolin_INCLUDE_DIRS})
-
+include_directories(${Sophus_INCLUDE_DIRS})
 
 # Source files
 file(GLOB CXX_SRCS 

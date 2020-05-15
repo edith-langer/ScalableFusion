@@ -32,7 +32,8 @@ include_directories(${EIGEN3_INCLUDE_DIRS})
 include_directories(${GLEW_INCLUDE_DIRS})
 include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(${OPENGL_INCLUDE_DIR})
-
+include_directories(${radical_INCLUDE_DIRS})
+include_directories(${Sophus_INCLUDE_DIRS})
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/include/gfx)
